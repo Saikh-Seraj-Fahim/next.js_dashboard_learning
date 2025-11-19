@@ -1,8 +1,8 @@
 // Bought from Shadcn.
 
 "use client"
-import { type ColumnDef, flexRender, getCoreRowModel, useReactTable, getPaginationRowModel, type SortingState, getSortedRowModel } 
-from "@tanstack/react-table"
+import { type ColumnDef, flexRender, getCoreRowModel, useReactTable, getPaginationRowModel, type SortingState, getSortedRowModel }
+    from "@tanstack/react-table"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { DataTablePagination } from "@/components/TablePagination"
 import { useState } from "react"

@@ -2,12 +2,8 @@ import { Calendar, ChevronDown, ChevronUp, Home, Inbox, Plus, Projector, Search,
 import {
     Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupAction, SidebarGroupContent,
     SidebarGroupLabel, SidebarHeader, SidebarMenu, SidebarMenuBadge, SidebarMenuButton, SidebarMenuItem,
-    SidebarMenuSub,
-    SidebarMenuSubButton,
-    SidebarMenuSubItem,
-    SidebarSeparator
-}
-    from "@/components/ui/sidebar";
+    SidebarMenuSub, SidebarMenuSubButton, SidebarMenuSubItem, SidebarSeparator
+} from "@/components/ui/sidebar";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem } from "@/components/ui/dropdown-menu";
 import { DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
