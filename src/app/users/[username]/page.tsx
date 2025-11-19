@@ -105,8 +105,7 @@ export default function UserDetailPage() {
                                 <SheetTrigger asChild>
                                     <Button>Edit User</Button>
                                 </SheetTrigger>
-                                <EditUser />
-                                {/* <SheetContent> is here */}
+                                <EditUser /> {/* <SheetContent> is here */}
                             </Sheet>
                         </div>
                         <div className="space-y-4 mt-4">
