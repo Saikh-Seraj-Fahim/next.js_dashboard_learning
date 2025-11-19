@@ -7,9 +7,9 @@ import { Progress } from "@/components/ui/progress";
 import { Sheet, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import CardList from "@/components/CardList";
-import EditUser from "@/components/EditUser";
-import AppLineChart from "@/components/AppLineChart";
+import CardList from "@/components/root/CardList";
+import EditUser from "@/components/single_user/EditUser";
+import AppLineChart from "@/components/single_user/AppLineChart";
 
 export default function UserDetailPage() {
     return (

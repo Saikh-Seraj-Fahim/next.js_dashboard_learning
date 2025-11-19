@@ -4,7 +4,7 @@
 import { type ColumnDef, flexRender, getCoreRowModel, useReactTable, getPaginationRowModel, type SortingState, getSortedRowModel }
     from "@tanstack/react-table"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { DataTablePagination } from "@/components/TablePagination"
+import { DataTablePagination } from "@/components/payments/TablePagination"
 import { useState } from "react"
 
 interface DataTableProps<TData, TValue> {
